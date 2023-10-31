@@ -1,0 +1,47 @@
+.login-form {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 150px;
+
+
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.reg-item {
+  padding: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 8px;
+  font-style: italic;
+  animation: fade 1s infinite alternate;
+  margin-left: -10px;
+  margin-right:  100px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,23 @@
+.loginregister {
+    background-color: ;
+    padding-right: 300px;
+    padding-left: 300px;
+
+}
+
+.rounded-t-5 {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .rounded-tr-lg-0 {
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    .loginregister {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}

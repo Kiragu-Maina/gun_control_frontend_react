@@ -1,0 +1,182 @@
+.marketplace-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.add-component-container {
+  width: 400px;
+  margin-right: 20px;
+  border-right: 2px solid grey;
+  
+}
+.add-component-container .labelformarket{
+  color: white;
+}
+.marketplace-form {
+  padding: 5px;
+  margin-top: -30px;
+  background-color: #141b2d;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.selectcategory {
+  color: black;
+  margin-right: 100px;
+}
+
+.selectsubtitle {
+  color: black;
+
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.back-btn {
+  position: relative;
+  margin-bottom: 50px;
+  top: 2rem;
+  left: 10%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.component-list-container {
+  flex: 1;
+}
+
+.component-entry {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  font-family: serif;
+  color: white;
+}
+
+.component-entry .counter {
+  margin-right: 10px;
+}
+
+.component-entry .item-name {
+  flex-grow: 1;
+  font-weight: bold;
+  color: white;
+}
+
+.component-entry .description,
+.component-entry .price,
+.component-entry .quantity {
+  margin-right: 10px;
+}
+
+.component-entry .list-button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.component-entry .list-button2 {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.list-button3 {
+  position: relative;
+  bottom: 0;
+  right: 0;
+
+}
+
+.labelformarket {
+  font-size: small;
+}
+
+.add-component-button {
+  background-color: rgb(125, 145, 243);
+  margin-right: 10px;
+}
+
+/* Media queries for small screens */
+@media only screen and (max-width: 767px) {
+  .marketplace-container {
+    flex-wrap: wrap;
+  }
+
+  .add-component-container {
+    width: 100%;
+    margin-right: 0;
+    border-right: none;
+  }
+  .add-component-button {
+    background-color: rgb(125, 145, 243);
+    margin-right: 280px;
+  }
+
+  .marketplace-form {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .back-btn {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.header2tag {
+  color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form-horizontal {
+  display: inline-block;
+  align-items: center;
+  gap: 2;
+
+
+  /* Adjust the gap between form elements as needed */
+
+  /* Vertically center the form elements */
+}
+
+.subtitle {
+  display: flex;
+  padding-left: 10px;
+}

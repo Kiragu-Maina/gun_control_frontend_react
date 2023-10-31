@@ -1,0 +1,48 @@
+.create-shop-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.create-shop-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.create-shop-page .form-field {
+    margin-bottom: 20px;
+}
+
+.create-shop-page label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.create-shop-page input,
+.create-shop-page select,
+.create-shop-page textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.create-shop-page textarea {
+    height: 120px;
+}
+
+.create-shop-page button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-shop-page .error-message {
+    color: red;
+    margin-top: 10px;
+}

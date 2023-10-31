@@ -1,0 +1,39 @@
+.register-form {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 150px;
+  }
+  
+  .register-form input[type="text"],
+  .register-form input[type="email"],
+  .register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 8px;
+    font-style: italic;
+    animation: fade 1s infinite alternate;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

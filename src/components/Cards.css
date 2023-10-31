@@ -1,0 +1,77 @@
+.cards {  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 400px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  /* Change padding to make it responsive */
+  .cards {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjustments for smaller screens */
+  .cards {
+    padding-left: 0px;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+  }
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #ddd;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  margin: 20px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+
+  /* Add media query for screens smaller than 768px */
+  @media screen and (max-width: 768px) {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.card p {
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.card button {
+
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
