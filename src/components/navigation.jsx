@@ -31,7 +31,7 @@ function Navigation() {
          
           <li className="navbar-item"><Link to="/login">Sign Up / Register</Link></li>
           <li className="navbar-item"><Link to="/shop">Manage My Inventory</Link></li>
-          <li className="navbar-item"><Link to="/rates">Admin Dashboard</Link></li>
+          <li className="navbar-item"><Link to="/admin">Admin Dashboard</Link></li>
           
         </ul>
       </div>

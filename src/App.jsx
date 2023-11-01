@@ -38,7 +38,7 @@ function App() {
 
         <Routes>
           {/* Render Rates component when the URL is "/rates" */}
-          <Route path="/rates" element={<FirearmTable />} />
+          <Route path="/admin" element={<FirearmTable />} />
           <Route path="/ecommerce" element={<Cards />} />
           
           <Route path='/login' element={<LoginRegistrationPage />} />
@@ -47,12 +47,12 @@ function App() {
           <Route path='/entry' element={<CreateShopPage />} />
 
           {/* Render Header component for all other URLs */}
-          {location.pathname !== '/rates' && (
+          {location.pathname !== '/admin' && (
             <Route path="/" element={<Header data={landingPageData.Header} />} />
           )}
         </Routes>
 
-        {location.pathname !== '/rates' && location.pathname !== '/ecommerce' && location.pathname !== '/suppliers' && location.pathname !== '/login' && location.pathname !== '/register' && location.pathname !== '/shop' && location.pathname !== '/entry' && (
+        {location.pathname !== '/admin' && location.pathname !== '/ecommerce' && location.pathname !== '/suppliers' && location.pathname !== '/login' && location.pathname !== '/register' && location.pathname !== '/shop' && location.pathname !== '/entry' && (
           <div>
 
        
