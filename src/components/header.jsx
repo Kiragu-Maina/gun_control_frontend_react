@@ -11,7 +11,7 @@ export const Header = (props) => {
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
                 <div className="cards">
-                  <Link to="/rates" className="card-link">
+                  <Link to="/admin" className="card-link">
                     <div className="card">
                       <h2>Admin</h2>
                       <p>See Inventory</p>
